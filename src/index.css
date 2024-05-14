@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.default-card {
+  @apply bg-neutral-900 rounded-lg w-11/12 border-2 border-neutral-800 flex flex-col gap-2 text-balance justify-center items-center p-4;
+}
+
+.button {
+  @apply bg-neutral-950 hover:bg-neutral-800 border-2 border-neutral-700/50 rounded-full px-4 py-2;
+}
+
